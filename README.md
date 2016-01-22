@@ -1,8 +1,7 @@
-Assignment 1:
------------------
+Assignment 1:-----------------
 Shailja
 12IE10025
------------------
+
 
 Q1&2. Type the following command in terminal to compile
 	python Q1,2.py
