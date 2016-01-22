@@ -20,7 +20,7 @@ image=cv2.imread('lego.tif',-1)
 image=RGBtoGray(image)
 displayImages()
 cv2.imshow('Gray Level Image ',image)
-cv2.waitKey(0)
+cv2.waitKey(0) 
 
 			
 			
