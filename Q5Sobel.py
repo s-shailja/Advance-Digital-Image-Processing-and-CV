@@ -23,7 +23,7 @@ for t in range (1,256):
    	for i in range(t,256): 
    		miu_H  += i*p[i]  / (q_H*1.0)
    sigma_b[t] = q_L * q_H * (miu_L - miu_H)**2
-max=0
+max=0 
 ans=0
 for i in range(256):
 	if max<sigma_b[i]:
