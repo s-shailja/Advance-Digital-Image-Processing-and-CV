@@ -17,7 +17,7 @@ for t in range (1,256):
    q_H = sum(p[t + 1 : ])
    miu_L=0
    miu_H=0
-   if q_L!=0 and q_H!=0 :
+   if q_L!=0 and q_H!=0 : 
    	for i in range(t):	
    		miu_L += i*p[i] / (q_L*1.0)
    	for i in range(t,256): 
