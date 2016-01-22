@@ -23,7 +23,7 @@ def sp_noise(image,prob):
 print('Enter the value of p')
 x=float(input())
 cv2.waitKey(0)
-noise_img = sp_noise(image,x)
+noise_img = sp_noise(image,x) 
 cv2.imwrite('sp_noise.jpg', noise_img)
 cv2.imshow('Noise Image', noise_img)
 cv2.waitKey(0)
