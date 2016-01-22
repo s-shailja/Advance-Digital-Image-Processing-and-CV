@@ -21,7 +21,7 @@ img=cv2.imread('cap.bmp',0)
 img=np.float32(img)
 dct=np.zeros((img.shape[0],img.shape[1]))
 #DCT transformation
-def DCT():
+def DCT(): 
 	for r in range(img.shape[0]//8):
 		for c in range(img.shape[1]//8):
 			for i in range(8):
