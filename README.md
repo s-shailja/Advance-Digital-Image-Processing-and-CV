@@ -21,7 +21,7 @@ Q6. Type the following command in terminal to compile
 	python Q6DCT_IDCT.py
     It will take more computation time(5-10 mints)
 Q7. Type the following command in terminal to compile
-	python Q7Harris.py
+	python Q7Harris.py 
 
 Q8(Bonus). Type the following command in terminal to compile
 	    python UsingLib.py
