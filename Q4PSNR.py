@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 img=cv2.imread('cap.bmp',0)
 I1=cv2.imread('cap.bmp',0)
 li_med=[]
-li_mean=[]
+li_mean=[] 
 def sp_noise(image,prob):
     output = np.zeros(image.shape,np.uint8)
     prob=prob/2
